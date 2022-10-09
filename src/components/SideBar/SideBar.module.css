@@ -1,0 +1,157 @@
+.sideBar{
+
+
+}
+
+
+
+.card{
+    width:80%;
+    background: var(--bg-cards);
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 300;
+}
+
+.card footer{
+    margin: 0.625rem;
+    font-size: 0.8125rem;
+
+}
+
+.personalInfoCard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.3rem;
+    font-size: small;
+    
+    
+}
+.personalInfoCard p {
+        display: flex;    
+        justify-content: flex-start;
+        align-items: center;
+        gap: 0.5rem;
+}
+.personalInfoCard p a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.personalInfoCard p a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.personalInfoCard p a:hover {
+    color: var(--text-color-highlighted);
+    
+}
+
+.technologyCard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+
+}
+
+.technologyTagsContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: flex-start;
+}
+
+/* content: "\2022"; */
+
+.technologyTagsContainer a
+{
+
+    
+  width: 25%;  
+  height: 1.4375rem; 
+  
+  background: var(--bg-techs);
+    border-radius: 8px;
+padding: 0.5rem;
+
+color: black;
+
+    font-size: 0.675rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.experiencesCard{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.experiencesContainer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+
+    gap: 1rem;
+
+}
+
+.experiencesContainer div{
+    display: flex;
+    flex-direction: column;
+    
+
+    
+}
+.experiencesContainer div p{
+ font-size: 0.875rem;
+}
+.experiencesCard div p:last-child{
+    font-weight: bold;
+}
+.experiencesContainer p::before{
+    content: '';
+    padding: 0 0.5rem;
+    
+}
+
+
+.experiencesContainer strong::before{
+    content: '\2022';
+    padding: 0 0.25rem;
+
+}
+
+
+.avatar {
+    margin-bottom: 1rem;
+    width: 4rem;
+    height:4rem;
+
+    border-radius: 50%;
+
+    border: 1px solid var(--avatar-frame);
+
+}
+
+

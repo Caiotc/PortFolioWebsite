@@ -1,8 +1,13 @@
 :root {
   --body-bg-color: #22212C;
   --text-color: #837E9F;
+  --text-color-highlighted: rgb(4, 149, 50);
   --bg-cards: #302F3D;
   --bg-techs: #CB92B1;
+  --avatar-frame: #00FF00;
+
+  --black : black;
+
 }
 
 
